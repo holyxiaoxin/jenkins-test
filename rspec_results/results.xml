@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="31" failures="0" errors="0" time="0.955241" timestamp="2017-04-06T11:21:10+08:00">
+  <!-- Randomized with seed 13568 -->
+  <properties/>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController GET #index assigns all high_scores as @high_scores" file="./spec/controllers/high_scores_controller_spec.rb" time="0.007513">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController GET #show assigns the requested high_score as @high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.000948">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController GET #new assigns a new high_score as @high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.068797"/>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController GET #edit assigns the requested high_score as @high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.000877">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController POST #create with valid params creates a new HighScore" file="./spec/controllers/high_scores_controller_spec.rb" time="0.011535">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController POST #create with valid params assigns a newly created high_score as @high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.001001">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController POST #create with valid params redirects to the created high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.000856">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController POST #create with invalid params assigns a newly created but unsaved high_score as @high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.000833">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController POST #create with invalid params re-renders the 'new' template" file="./spec/controllers/high_scores_controller_spec.rb" time="0.000808">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController PUT #update with valid params updates the requested high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.000893">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController PUT #update with valid params assigns the requested high_score as @high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.001178">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController PUT #update with valid params redirects to the high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.001287">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController PUT #update with invalid params assigns the high_score as @high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.001004">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController PUT #update with invalid params re-renders the 'edit' template" file="./spec/controllers/high_scores_controller_spec.rb" time="0.000659">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController DELETE #destroy destroys the requested high_score" file="./spec/controllers/high_scores_controller_spec.rb" time="0.000661">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.controllers.high_scores_controller_spec" name="HighScoresController DELETE #destroy redirects to the high_scores list" file="./spec/controllers/high_scores_controller_spec.rb" time="0.000597">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.helpers.high_scores_helper_spec" name="HighScoresHelper add some examples to (or delete) /Users/jiarong/workspace/jenkins-test/spec/helpers/high_scores_helper_spec.rb" file="./spec/helpers/high_scores_helper_spec.rb" time="0.000006">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.models.high_score_spec" name="HighScore add some examples to (or delete) /Users/jiarong/workspace/jenkins-test/spec/models/high_score_spec.rb" file="./spec/models/high_score_spec.rb" time="0.000005">
+    <skipped/>
+  </testcase>
+  <testcase classname="spec.requests.high_scores_spec" name="HighScores GET /high_scores works! (now write some real specs)" file="./spec/requests/high_scores_spec.rb" time="0.675390"/>
+  <testcase classname="spec.routing.high_scores_routing_spec" name="HighScoresController routing routes to #index" file="./spec/routing/high_scores_routing_spec.rb" time="0.001212"/>
+  <testcase classname="spec.routing.high_scores_routing_spec" name="HighScoresController routing routes to #new" file="./spec/routing/high_scores_routing_spec.rb" time="0.001055"/>
+  <testcase classname="spec.routing.high_scores_routing_spec" name="HighScoresController routing routes to #show" file="./spec/routing/high_scores_routing_spec.rb" time="0.001248"/>
+  <testcase classname="spec.routing.high_scores_routing_spec" name="HighScoresController routing routes to #edit" file="./spec/routing/high_scores_routing_spec.rb" time="0.000828"/>
+  <testcase classname="spec.routing.high_scores_routing_spec" name="HighScoresController routing routes to #create" file="./spec/routing/high_scores_routing_spec.rb" time="0.000649"/>
+  <testcase classname="spec.routing.high_scores_routing_spec" name="HighScoresController routing routes to #update via PUT" file="./spec/routing/high_scores_routing_spec.rb" time="0.000700"/>
+  <testcase classname="spec.routing.high_scores_routing_spec" name="HighScoresController routing routes to #update via PATCH" file="./spec/routing/high_scores_routing_spec.rb" time="0.000836"/>
+  <testcase classname="spec.routing.high_scores_routing_spec" name="HighScoresController routing routes to #destroy" file="./spec/routing/high_scores_routing_spec.rb" time="0.001114"/>
+  <testcase classname="spec.views.high_scores.edit" name="high_scores/edit renders the edit high_score form" file="./spec/views/high_scores/edit.html.erb_spec.rb" time="0.096269"/>
+  <testcase classname="spec.views.high_scores.index" name="high_scores/index renders a list of high_scores" file="./spec/views/high_scores/index.html.erb_spec.rb" time="0.022350"/>
+  <testcase classname="spec.views.high_scores.new" name="high_scores/new renders new high_score form" file="./spec/views/high_scores/new.html.erb_spec.rb" time="0.013277"/>
+  <testcase classname="spec.views.high_scores.show" name="high_scores/show renders attributes in &lt;p&gt;" file="./spec/views/high_scores/show.html.erb_spec.rb" time="0.023771"/>
+</testsuite>
